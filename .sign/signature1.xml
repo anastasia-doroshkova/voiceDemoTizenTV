@@ -1,0 +1,604 @@
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="DistributorSignature">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></CanonicalizationMethod>
+<SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
+<Reference URI="author-signature.xml">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>DJihH1aAK//rfdiwP7ApDuzkxQ/TC3p+knvZP8qwL2U=</DigestValue>
+</Reference>
+<Reference URI="config.xml">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>G+oZnYRn3J++awQzey+fgQbV5klHJ0WGKDce73/+wjg=</DigestValue>
+</Reference>
+<Reference URI="css%2Fstyle.css">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>DdcrgZv5vBqgbam0fvuEIq+venfmDM3jx53w+aYXL8c=</DigestValue>
+</Reference>
+<Reference URI="icon.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>vPjxjOppORd6hn9Bw4sh06gqtDoJzoFbV/8e9FyIdvk=</DigestValue>
+</Reference>
+<Reference URI="images%2F1.jpg">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>UUmv7waG55VS9x+8a3mltH87iuWeEKMBQcf0xSV7mVs=</DigestValue>
+</Reference>
+<Reference URI="images%2F2.jpg">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>JTnlL7N37lpKBKL61SuLSK9/LAeimST6UjZonliaYy0=</DigestValue>
+</Reference>
+<Reference URI="images%2Farrival.jpg">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>pTUA6RXloxzNFWr+G1o5z401Ja6+C6xTz7NZ9v5epWw=</DigestValue>
+</Reference>
+<Reference URI="images%2Favatar.jpg">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>i19/pph4iCvdItYY8fG2U2cD23vdURNfwlmIhmoUrNU=</DigestValue>
+</Reference>
+<Reference URI="images%2Fbackground.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>TpTlvaRDJj9VL5gnO9GpD20cqbX6EXgk4SLMQsy0zY4=</DigestValue>
+</Reference>
+<Reference URI="images%2Fblack.jpg">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>kSd6MshjlSLAexXE7xLlLwNRYrZN1aElP5NC9G7T4xs=</DigestValue>
+</Reference>
+<Reference URI="images%2Fgabriel.jpg">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>okOC0zMUVcyZPt4qFjgH36GG7aFhua3LvAFowvwX4m8=</DigestValue>
+</Reference>
+<Reference URI="images%2Fgravity.jpg">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>hK18k/LaHZxAwnwoUHOtCmfwuP2OPYMReLD2A0G3lVI=</DigestValue>
+</Reference>
+<Reference URI="images%2Flegion.jpg">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>LNcs98c/b6pWanQx3TspnIn1A4bpP6pezX27nQVZyKg=</DigestValue>
+</Reference>
+<Reference URI="images%2Fmatrix.jpg">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>p9x2LIvW4aO8A0I4u/ZYpz4AD9UnNgDABllaqU9s/0Q=</DigestValue>
+</Reference>
+<Reference URI="index.html">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>NEv+Shv0oVHnQ30ANpXsUe/g/ByaeCyPWC7X1Bv0+cE=</DigestValue>
+</Reference>
+<Reference URI="js%2Finit.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>gUCDQ3pPcZz7lT1whFkGeEyYrRi6eiv1H6/XW6zezfM=</DigestValue>
+</Reference>
+<Reference URI="js%2Fmain.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ynA4X0odX22NLtiRVXkGLmxOmRc4WK0UYOkdHa4AjSE=</DigestValue>
+</Reference>
+<Reference URI="js%2Fvoice.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower.json">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>9o+OqdDbJVn6TE/X5QD6nj2+7STx9IY4KBpM7fm/PUY=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2FMIT-LICENSE.txt">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>RCVMmpGkZHuRklhPF7LSe/Q2lroeoWsOiKx71r8HgPE=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fbower.json">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>6nbve8e1ZAI9ZwNmWP+tBDxnHen6BTLbntk2Q8bW7wA=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fdist%2Fjquery.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>siFczlgw4jULnUICcdm9gjQPZkw/YPDqhQ9+nAOScE4=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fdist%2Fjquery.min.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ImQvICV38LovIsvla2zykaCTdEh1Z801Y+DSop91wMU=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fdist%2Fjquery.min.map">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>l8xmvVriERrBqir9Luwlr2AnHUBIJ/ZyCgMYsOPJx8U=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fajax.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>0CU3qTLM2ZUIssyWEH1nZAEcTcxfMIQ30Nk0sDm398o=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fajax%2Fjsonp.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>APWRE6LTqg1xbWBs5Mh0NppjFMyFriS+L6Ikb6yzCn8=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fajax%2Fload.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>VJpBT1QgSwffhfA0flruc7KH5kbqPKncvvwhJlSSt3g=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fajax%2FparseJSON.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>3REhgwynW/edARSAjxZ8P8/Pl67QcpYW2uo0QERo3oY=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fajax%2FparseXML.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>1ZB4MAwBrbjjx4fW+hmPCwls9Rx5ycbKTzDbmY7T9f4=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fajax%2Fscript.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>hp7PcCkzCb/B8KAfJPlTT9W60GVxgEifLj0zxtLkhvs=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fajax%2Fvar%2Fnonce.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>hZuIvQN7IlqKqTkUIINTCDEhPlV72dBvaOTIQTg7NlE=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fajax%2Fvar%2Frquery.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>q2KmIIqgzj8//Wu0g8a16Tywa8uB1rkV0fG6ADXY+/g=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fajax%2Fxhr.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>4dsw7wtHNFerRxHle8S3Zs5JShinB/gidwpbP5tWBW0=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fattributes.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>sAo3V3Yl1EJuBo21OEYeKtIDScN1KDMvvQFCrk/wEcg=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fattributes%2Fattr.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>1HL+frXDMOQGMe56RpZmr+f87V+pNRqKsTpnUNA3bzM=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fattributes%2Fclasses.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>wKmMp8hMp58IaSAMnqKgycwfC1H0TV/1eI1l3aUSOLw=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fattributes%2Fprop.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>AWGj6sW2n8IM1WOJ94MvniPuL3qyrH+xOYqBLbuVBkQ=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fattributes%2Fsupport.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>gWBZZP//qbysL83bVjsMYmMbrH5pXxrbztb8XBidg5k=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fattributes%2Fval.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>xpFqtavOifzb7yjwm8kx3i+aX5BxjaVvFgqO5UlMp00=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fcallbacks.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>OVrif34UdM2ki2qYUcn6IqrbXUTTUZvzih9xmW5xRcc=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fcore.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ZZVFKUmlF6+ZvjzquVoM2JdSgck20h2VRd1OeRdKO8U=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fcore%2Faccess.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>zwu+Lhwx0/zrk9snRhC2CgiaTzYtJgRFsCR6x+Ypli4=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fcore%2Finit.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>CSUikbEkCYddUiWLoNghORfuFnjib4DFObCwzEopMj4=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fcore%2FparseHTML.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>uv/iVjVFUf82O6TNkjT23/BVzbD0biz69upzNl8oj3g=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fcore%2Fready.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>6TZtcmr3mzby1Hj1Jy4mjX2DfGNyWSbvH7p8O+EPaXU=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fcore%2Fvar%2FrsingleTag.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>m0PyMJl5KiZ37t+ds7pQrckbZsOsXxASjC2Jcd0pldc=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fcss.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Vh7IDZpkY9KIp8E+qIIOLdZOHnBbWH86HDnw7bjqYSI=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fcss%2FaddGetHookIf.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>2LgP4sY4i+YkUAHKdNI3gTPBi93Xkjd6R8xDHRycW60=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fcss%2FcurCSS.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>J1cV+kgoqhHlic7muVkPiB97QLH7wSf8uOX4id2W+N8=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fcss%2FdefaultDisplay.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>LZesg0fbfJX00bzr3DfLgaQxr4Ztcaoz33VKERoAfHQ=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fcss%2FhiddenVisibleSelectors.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>frkP3CyWOA+Vi38SuJdMm4tGq+pkW0p8k5Im/At0dM0=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fcss%2Fsupport.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>SyFXrcq4XgSoLI1ny3T0tWwxU+tr7Sb/8Rn4jdjfPl4=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fcss%2Fswap.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>px8iEunPyTkz5G5tw1sYK1G/8eb3psPHzcGMmxFObOs=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fcss%2Fvar%2FcssExpand.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Fu92Ca3IySkBAvRBbuBdqypHTfdlqN2heskVYijELQA=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fcss%2Fvar%2FgetStyles.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>rpDTj5xFGEVDp1jdr6wkr69/2Jqq0L0L4xVRaAQZHmA=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fcss%2Fvar%2FisHidden.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>xHX5iqLAib2+ze4wG1FFJRCEXRJMEJS8UDgUS492cRU=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fcss%2Fvar%2Frmargin.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>+f7mHRfiuv+/eJvFGfyHoEb8lRasd7EZEKOavJV7aoc=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fcss%2Fvar%2Frnumnonpx.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>j+g8lE4X4V2sRSXmISXnO5+ggVCUxp37c6r2DqBMjqk=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fdata.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ifxHWAiuXSDSIBzPY8IHyjwRiI2TvINX2Ho5/moDMzE=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fdata%2FData.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>CrDVaUisbzBpqppGcepPUd7WyrZmKovxp1MtL/Ytun8=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fdata%2Faccepts.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>FSyuaXrzr+GvsZKBBQUMG5ZwMF8KVQ0uLeYvscdAv9w=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fdata%2Fvar%2Fdata_priv.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>bd2GLTO1aNMRn1RxIIY0ZjwC0hZUI7BQHbA85gHWNs4=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fdata%2Fvar%2Fdata_user.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>bd2GLTO1aNMRn1RxIIY0ZjwC0hZUI7BQHbA85gHWNs4=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fdeferred.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>3yeNZ3CkYwS53UeoGX3AgY0/tR4EVIft+RaW2VhhMBA=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fdeprecated.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>PGlu4Y+uAnuiJLpxhLK5zBKURq6we7QAQqmN+g7ZwCs=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fdimensions.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>kyYRWBrcivtp5wKczgfWPcghz8p3OVFWnMMXsESTdJ4=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Feffects.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>B+cbE8lMj9IPj+Ws6CcdFAToAjiOzGOAJwYsOXEubDM=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Feffects%2FTween.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>5vEdX01zenXyl79ZnSfC+awTfsYb89vqcrGq6N6ALQ8=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Feffects%2FanimatedSelector.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>eUXET+jmsmF7KVW01SXfmME/aTQUXT8ABubxSY30pis=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fevent.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>c0zxUJTkMpfaxNMo+ALNe9XGO2XYAZgG60+/30j7IdI=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fevent%2Fajax.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>P1uaMDwR+LccIlcbsBFO3guUUABB/z2j6f69otE5b30=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fevent%2Falias.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>nPVpHQtUJMePdgdqofX9HvZtcSZkA1FXw/yUiSFerCQ=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fevent%2Fsupport.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>E0s1Un1D+bkV3VU6AHX6QAVesxZ2u51H2lsPuper/rA=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fexports%2Famd.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>B17cb2MrKwFW4Hw4y9JfPBdTv9JIM14/ORatDZV3uGI=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fexports%2Fglobal.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>jznSQEPyn9MyJ0J5R8SIrTG1Jpo+sfSnZTWXTo/HkWg=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fintro.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>czYeapXHwHRWKdiqA+XkZy+CUSqMm85W8+dZw5fJ6Sg=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fjquery.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>77D0y1DmjMnsVCrNOEy/KlpRGmSbRm2y0SbtuS6lYmc=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fmanipulation.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>9Cm7lLUSKGNjNQCDmpadkNkDF98Y+e9YJ5H+LnFWU6w=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fmanipulation%2F_evalUrl.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>fN1qet18LI9tYIiJrz7J1sVoOmqfvOEwuYB7W4d54UA=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fmanipulation%2Fsupport.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>aoqb4o61Ey+/5rNv0LJKFHPL7KFJNMXrh4Yo8h0/XFE=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fmanipulation%2Fvar%2FrcheckableType.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>mNmOoNOgOiZRbrFF5JTqLtiimHiiLo5sE7mZ8evzVx8=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Foffset.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Cql7TIoEE1L/t9yz69NZUfnKc69614kgxcuOSr+0xig=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Foutro.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>W3QdLAjm9RC36aJk83j5zgBJpQTg5+9dZ80+qBP4VHQ=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fqueue.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>+DbZ77axQ12gR5y0klkhkKKUDMCeIwM4TWckvSO4CZc=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fqueue%2Fdelay.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>cYz2IzaVwWR5mWBw96hcvGIrl351UUGa9ckNCIIJbck=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fselector-native.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Fy/zKGyxS/tTeCIxTP3y6M6m/gDvrqFt3tF/PaCc4H0=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fselector-sizzle.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>uzVgJk0IEhMShdVnW3UVcyeOBWvA+GInxm2jfKs4OaU=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fselector.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>zDFXGUs9156AHymgV1tGvdFcy3QZOBnPiyNw1YjS9sE=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fserialize.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>P7PaByyxDftUYJMYvdd5s7sBykdu9BDKXGNCMGI1vAo=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fsizzle%2Fdist%2Fsizzle.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>XaqEPI3boot3iJRD7+Qoeki4rEmIZ+g+NdKLzg456G0=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fsizzle%2Fdist%2Fsizzle.min.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>qfU3m05pUKAVuoCZUtW/01I5ncdRABfaNLffiTZguiQ=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fsizzle%2Fdist%2Fsizzle.min.map">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>jUQ36WzM9yUw8srSFe4Vtlt6MHRWg+tsAS7jx6864KM=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Ftraversing.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Ng/p8taQcHwnmPxL7Ang6lNbY29tccGiksvkFPggz8U=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Ftraversing%2FfindFilter.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>XwAvBoebAgHwmug2sCwrz6xdPAZHFVJVMZh6A/LVFA0=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Ftraversing%2Fvar%2FrneedsContext.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>aptS/qxD4usAqp0xgkN4T8amRlInuZiFhTrtu9xu5ck=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fvar%2Farr.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>eQfvrIB63g+DRJWPWb7EPac+kG2gi+aVn4DGkQsZqTw=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fvar%2Fclass2type.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>+vTBi6cfSyoYK5C3stfyWqM/VeiNzwiEWQq3FWNlNJE=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fvar%2Fconcat.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>cO46Y4GvWsnLzIYThnQiacL/s+HUzJlKYpp8QGIDcLw=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fvar%2FhasOwn.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>DjeqO2n/i/tJBi9535P48KzeUz6d9Y1nTAiIBHPUxyM=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fvar%2FindexOf.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>5qg0MAAp9fckL1Hrp8MjFIbR45Xj5N5490Ue9BL4MKk=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fvar%2Fpnum.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>LbNr9+7Al/oTYm7p3mqpOE2KG/Wdbz0ZLom6He12RVw=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fvar%2Fpush.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>aHNSety9Ph3KjpzRuQic2QJLIZ6D+TxrapcbzZTpcVU=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fvar%2Frnotwhite.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>o+pyN8I/2Ac7+RpzbxH5fW7Al5kmeEIHb1ec3mDKVJM=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fvar%2Fslice.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>CBN82GZUT8Z9MKSp2yolNTzn/LScdVMDFgU9pAD2BO4=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fvar%2Fstrundefined.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>iQKQYFdcAN8dy7wFdC5An8IqLA1n/TDkLBtG85gbbMs=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fvar%2Fsupport.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>avT9/cLEXpSE9Fc2E1DoHAYhRz6oM5Q4oOppoxNe+Vg=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fvar%2FtoString.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>dHIywPd1w1LZ8q4gLPZlazVy1Q9zM44vbML9/qmG6mA=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fjquery%2Fsrc%2Fwrap.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>lct8YQljVRc+QnzM7dMDIrGQ087DwXsrKY2JBgd/M3o=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Flodash%2FLICENSE.txt">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>kN+eIiD2guH3fiSxwPctLeGLgYCWyVemVpjnTEGkgm8=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Flodash%2Fbower.json">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>GlTjtIYmP/X4ck7AUgMPky22htfE2VL3XGZIHCs8Q/w=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Flodash%2Flodash.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>EIoRmvMjINW3VHxmxejKMRgnpKHUySAMZ8SUr7lMbR4=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Flodash%2Flodash.min.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>5SFjNprRbj9eJg3cqxyFQcMoMLSmJ1unwzIQbOA8Bbc=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fvelocity%2Fbower.json">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>HgF2cpJ0dOqbw5CSNV9iJ0MdX+RMvcqDW1l5qq0S8O0=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fvelocity%2Ftest%2Fbluebird.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Eca0czvhY0v9rqqHj4CDDbMyGODlYpefMHojZ0zvsA4=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fvelocity%2Ftest%2Findex.html">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>BOXtuF1HmYsoPW5LQ2sI+Wy5KytOj4pZ/H7ugSGPKZQ=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fvelocity%2Ftest%2Fjquery-1.11.1.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>wOkVW+Sj2k3Q5YrkuE3+jc1O0H5NcUoQQUqA1DM26UM=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fvelocity%2Ftest%2Fjquery-1.4.3.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>DjMDo6DOyV68jDzD4Z/HHJlIf6ooawXQGj64zKTZC8c=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fvelocity%2Ftest%2Fq.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>22F9NeBfVJlE54V5BFaYkAO8lt6diDAMpLcB7rotnSE=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fvelocity%2Ftest%2Fqunit-1.14.0.css">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Fk3LBYPjdTo8htB228CChSMM/0QEMF53sg/Z7T48uIo=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fvelocity%2Ftest%2Fqunit-1.14.0.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>cnYxKwgUetwYdxdtsrpOQ3S0XgrzOWaJiY7k303xN3g=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fvelocity%2Ftest%2Fwhen.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>GUjfOemIr8v8HHCEY21RsCH/mIhOFCB9mdkve8CsAkE=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fvelocity%2Ftest%2Fzepto.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>4nkX+R5RMVJhOhpfJDrN8UhZiIa6kqz6vym2tsxu40M=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fvelocity%2Fvelocity.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>kFVevowoMmP+LjE8KY0uIniDkDYpGSv+PgoqAMq8Rc4=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fvelocity%2Fvelocity.min.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>XOkvENCTDgs9zjRnsRHbQijsQp45RKAbb8wsMR3VcsQ=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fvelocity%2Fvelocity.ui.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>iQXXFVbbeH3TuW+BAkadhY9hFxE3bdo7kG6rHMcTMDw=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fbower_components%2Fvelocity%2Fvelocity.ui.min.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>wDASuom6tG2Y97FEJuZU8GWLOpLqeR4WgyOt42cCX9g=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fcaph-jquery.min.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>2d/cI3excsREJwU1jiQwet3CtRs/W3qwLS8SX8XhjHo=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fcaph-stripe.min.css">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>kbeXAwpR+T8koE68Rtl6M/NimKrSlXJt6xMzQlDSw2s=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcaph%2F3.0.1%2Fcaph.min.css">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>3YEa0jXyKcIaSu2uiGtiWXRTN+7UMsdBQeQH6l2VAbA=</DigestValue>
+</Reference>
+<Reference URI="videos%2Farrival.mp4">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>dV7j2O4cNIws66tbqTRBRbkuyPqTcJyxUEQI2jr2wus=</DigestValue>
+</Reference>
+<Reference URI="videos%2Favatar.mp4">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>z1YSPvIxvRLpcwGzgXP/8VKLvKjzn5j7T5/BznlnUnY=</DigestValue>
+</Reference>
+<Reference URI="videos%2Fgravity.mp4">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>dIsXfsodZ8sgnfwexmPNBbc9x8xr2vlKIiHQRTge2G8=</DigestValue>
+</Reference>
+<Reference URI="videos%2Flegion.mp4">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>aZXhDhY1yH76YVb5/yrKl/fC8FfVDRmfpq0pRSfQ33E=</DigestValue>
+</Reference>
+<Reference URI="videos%2Fmatrix.mp4">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>rE+Ob9t3IdYvRS8/6LM0s2MuQU9Hr0lplEsrmoMYj1U=</DigestValue>
+</Reference>
+<Reference URI="#prop">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2006/12/xml-c14n11"></Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>u/jU3U4Zm5ihTMSjKGlGYbWzDfRkGphPPHx3gJIYEJ4=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>
+KiKanrBcXKUutpqTl5U/Civ6mvqaYE0iMHMVjBOEOIJaEO/a/LOseiZdD+C66phc4t13Gay4JYpV
+RPHdV/PbLyN51u2GUoNTdgb7kIKRfXnhst5fJwTRq0klxGsCbUsM5samza2TCWmMq1K5NrxXmbUv
+aRDBjAQ+JMiI+AZCYXqNjsKeUDMIGIDCOTzn0Ajgr96ipbQ5eywz0IQ/jT1d2FgeOGadpCyzUrD+
+UzaxJWCwwJwsqlYuLUb8ctf6J4nOiplFLq1uhjeCTWMCwAqJJMnfKm6jPFHte8rmsyG0iLzZeRuv
+tEHNgVc2FitYGVjDojTdnUlCf/elJ3n/J4OoWA==
+</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>
+MIIExTCCA62gAwIBAgIBZDANBgkqhkiG9w0BAQsFADCBjzELMAkGA1UEBhMCS1IxFDASBgNVBAgM
+C1NvdXRoIEtvcmVhMQ4wDAYDVQQHDAVTdXdvbjEmMCQGA1UECgwdU2Ftc3VuZyBFbGVjdHJvbmlj
+cyBDby4sIEx0ZC4xCzAJBgNVBAsMAlZEMSUwIwYDVQQDDBxWRCBERVZFTE9QRVIgUHVibGljIENB
+IENsYXNzMB4XDTE5MDgxOTExNTExOFoXDTIwMDgxODExNTExOFowggGeMREwDwYDVQQDDAhUaXpl
+blNESzEJMAcGA1UECwwAMQkwBwYDVQQKDAAxCTAHBgNVBAcMADEJMAcGA1UECAwAMQkwBwYDVQQG
+EwAxggFQMIIBTAYJKoZIhvcNAQkBFoIBPWFuYXN0YXNpYS5kb3Jvc2hrb3ZhQG94YWdpbGUuY29t
+JnRva2VuX3R5cGU9YmVhcmVyJnVzZXJJZD15c2F1cDBjdWxiJmFjY2Vzc190b2tlbl9leHBpcmVz
+X2luPTUwNDcxNiZjbGllbnRfaWQ9NGZiN2ZuZjNucCZhY2Nlc3NfdG9rZW49YTRKYXUzR1o2ciZy
+ZWZyZXNoX3Rva2VuPS0xJmF1dGhfc2VydmVyX3VybD11cy1hdXRoMi5zYW1zdW5nb3NwLmNvbSZz
+dGF0ZT1hY2NvdW50Y2hlY2tkb2dlbmVyYXRlZHN0YXRldGV4dCZjbG9zZWRBY3Rpb249c2lnbklu
+U3VjY2VzcyZjbG9zZT10cnVlJmFwaV9zZXJ2ZXJfdXJsPXVzLWF1dGgyLnNhbXN1bmdvc3AuY29t
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgggFvPPxiVe9pYuh6TiINKRfj+Nez7BZ
+UO7SMettvfuet+Ub2TEvbSBCsKf77uuIQVKXZsb+GXtNLOWnqUrN/FxWUiyu1mXprZosiTtRvaKn
+EiZ/K81o0tiAB7eNAmavm+J5dhYKCRC4+gyUcgFcxTKL9yZN0TGpCNaPYIQv6+5SYJPN7ZIHAAT0
+VuEnc/ZL8KlFBuQaMJB4q2qBQxsYku1kt3VKrGlCsKCu6PpB1vXZb7d1xyfT7jXJvTBlJeR1t7wd
+EQJw2q+Y4sgjqLi/MxwFVce67dKUzYXaBHmCVBxecRvYalxqsbin9DVps7tZUkOXyggangIytRH4
+kFzbPwIDAQABoxowGDAJBgNVHRMEAjAAMAsGA1UdDwQEAwIHgDANBgkqhkiG9w0BAQsFAAOCAQEA
+dRzQS52Xb0dpsdRXcawWpbFjTnRMhRlHVIX9HlavGFy9qzr6yjuJvTUcbRlTfTKRys5uhcF7KofP
+v4yWmgSNfvAr7RWY9LfIC1owXgFNUhuhTCuqAQh17/GTChY9tgJ2WJBCX3rOSCAuG6YpzaKe4tbV
+uvQsXRogu66ocAaiDbpxMEG0X9Q7YSLqjJ92YtwYHoApJHFa7pMt9969n4yQbHLdpFZ5VVf6EXG3
+v0OHn9sD4inFxOCXdNhNLkXdXGbw8BS3ndjdyOVPqB5v/yQRZJG6tjtXE3utKFQG3awegXE6GZuv
+4hUuhCFqDFrzOAiH90X4V/1ADzVbwfHU2FAh8g==
+</X509Certificate>
+<X509Certificate>
+MIIDrTCCApWgAwIBAgIBATANBgkqhkiG9w0BAQsFADCBkTELMAkGA1UEBhMCS1IxFDASBgNVBAgM
+C1NvdXRoIEtvcmVhMQ4wDAYDVQQHDAVTdXdvbjEmMCQGA1UECgwdU2Ftc3VuZyBFbGVjdHJvbmlj
+cyBDby4sIEx0ZC4xCzAJBgNVBAsMAlZEMScwJQYDVQQDDB5WRCBERVZFTE9QRVIgUHVibGljIFJv
+b3QgQ2xhc3MwHhcNMTQxMjE5MDkyOTQyWhcNMjkxMjE1MDkyOTQyWjCBjzELMAkGA1UEBhMCS1Ix
+FDASBgNVBAgMC1NvdXRoIEtvcmVhMQ4wDAYDVQQHDAVTdXdvbjEmMCQGA1UECgwdU2Ftc3VuZyBF
+bGVjdHJvbmljcyBDby4sIEx0ZC4xCzAJBgNVBAsMAlZEMSUwIwYDVQQDDBxWRCBERVZFTE9QRVIg
+UHVibGljIENBIENsYXNzMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAr9u+prHP0MtG
+DqQmDtIpFuFKD1mCmYPEA4OZ6zRH3f3t9cUmXtmAGEDPinCHpw9UdGU3JkNnNUd6dFf2HkFBIm8+
+LepRxR/rEmkHsBHFaLbTDVNZnwBXVs82eyMl9wonLp74otysnLAtEA968r7MH5WwwkF73W2vtOqA
++PpGOH31LAeLFNPajAVCgqiaIKn8eFQuLta2dNrXcZXia+GTXz0PZ0oEs6k1cphhkbe+uV5NL/qW
+DjF5X1rIGxz/58AwxfF73wP7QPY9Z34vwai0tcUvGAkNXW60FjTj6iZ2N/UxPsuhNa1sSv2srxhW
+SBAklC3L4A9C6o8sP91WkkdXIQIDAQABoxAwDjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUA
+A4IBAQCnzmtVT7Zr8BjemLmZu/mLmGizAl/QaufSyCLaPVnUlgdReeMdjBvtvNlM9/EJecxiWhAa
+kiZFA664lisAjQjL3bREP9HjOSSDhvx8GNLigjRKOJVivFxz0E4C7K/d9wBlstNCsTe2dRW0mhV+
+7l1kvbqByfi3kzUrJxaTOev/DxaPs9qofe/+Fvor5AcQXiKJ7wuva5HvYZq1z3f3XuEy/tIhv2fk
+to09aZTNHNjeHeqiAUQFNrtv8NbHQZZKKaZQbnrT2h4HjtfuzAHaFt1EaO7l2TRE+OEJIpSkKT08
+1kT1zqSmnj38acW/+ExcY7fABrT3oigLsXPBsYxjSAtn
+</X509Certificate>
+</X509Data>
+</KeyInfo>
+<Object Id="prop"><SignatureProperties xmlns:dsp="http://www.w3.org/2009/xmldsig-properties"><SignatureProperty Id="profile" Target="#DistributorSignature"><dsp:Profile URI="http://www.w3.org/ns/widgets-digsig#profile"></dsp:Profile></SignatureProperty><SignatureProperty Id="role" Target="#DistributorSignature"><dsp:Role URI="http://www.w3.org/ns/widgets-digsig#role-distributor"></dsp:Role></SignatureProperty><SignatureProperty Id="identifier" Target="#DistributorSignature"><dsp:Identifier></dsp:Identifier></SignatureProperty></SignatureProperties></Object>
+</Signature>

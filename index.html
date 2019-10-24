@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- include CAPH 3.0.1 default package -->
+    <LINK href="lib/caph/3.0.1/caph.min.css" rel="stylesheet" type="text/stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <!-- include jQuery file (you can use jQuery in your environment) -->
+    <SCRIPT src="lib/caph/3.0.1/bower_components/jquery/dist/jquery.min.js" type="text/javascript"></SCRIPT>
+    <script src="lib/caph/3.0.1/bower_components/lodash/lodash.js" type="text/javascript"></script>
+    <!-- include the CAPH Package for jquery -->
+    <SCRIPT src="lib/caph/3.0.1/caph-jquery.min.js"></SCRIPT>
+    <script type="text/javascript" src="js/commands.js"></script>
+    <script type="text/javascript" src="js/data.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/actions.js"></script>
+    <script type="text/javascript" src="$WEBAPIS/webapis/webapis.js"></script>
+    <script type="text/javascript" src="$MANAGER_WIDGET/Common/webapi/1.0/deviceapis.js"></script>
+</head>
+<body>
+<div class="wrapper">
+	<div id="main-view" class="content">
+		<div class="list-container">
+			<div class="test-list"></div>
+			<div id="list1"></div> <!--style="position: absolute; left: 380px; top: 130px;"-->
+		</div>
+	</div>
+	<div id="video-player" class="video-player hidden">
+	 	<a focusable data-focusable-initial-focus="false" class="catalog-button" href="#"> <- Catalog</a>
+    	<h2 id="video-title">Avatar</h2>
+		<div class = "left">
+			<div id="video-container"></div>
+ 			<div id="video-controls">
+ 				<div id="play">PLAY</div>
+ 				<div id="stop">STOP</div>
+ 				<div id="pause">PAUSE</div>
+ 				<div id="subtitles">CC</div>
+         		<div id="fullscreen">FullScreen</div>
+ 			</div>
+		</div>
+   	</div>
+   	<div id="information" class="information hidden">
+   	    <a class="catalog-button" focusable data-focusable-initial-focus="true" href="#"> <- Catalog</a>
+		<h1 id="information-title">
+			Avatar
+		</h1>
+		<div id="item-index">1</div>
+		<div id="information-img">
+			<img id="information-item-img" class="information-item-img" src="./images/avatar.jpg">
+		</div>
+		<div id="information-description">
+		</div>
+		<button class="play-button" onclick="onMovieWatch()" focusable data-focusable-initial-focus="false">Play</button>
+	</div>
+</div>
+</body>
+</html>
